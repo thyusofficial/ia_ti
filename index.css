@@ -1,0 +1,13 @@
+.maze-container{
+    display: grid;
+    grid-template-columns: repeat(10, 50px);
+    grid-template-rows: repeat(10, 50px);
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+}
+.maze-container .unvisited{
+    background: #000;
+}
+.maze-container .visited{
+    background: #ccc;
+}
